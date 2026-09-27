@@ -1,0 +1,232 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(252, 218, 218);
+}
+.header h1{
+  text-align: center;
+  color: rgb(85, 16, 119);
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+.header p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.form {
+  border: navajowhite;
+  border-radius: 30px;
+  width: 600px;
+  height: 1200px;
+  border: 3px solid rgb(97, 88, 88);
+  margin: 10px auto;
+  padding: 20px;
+}
+.name h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.dob h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.fathername h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.mothername h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.gender h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.bloodgroup h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.email h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.phonenumber h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.alternativephonenumber h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.address h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.city h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.state h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.pincode h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+input[type="text"]{
+  width: 100%;
+  padding: 7px ;
+  border: navajowhite;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 200;
+}
+input[type="date"]{
+  width: 100%;
+  padding: 7px ;
+  border: navajowhite;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 200;
+}
+input[type="email"]{
+  width: 100%;
+  padding: 7px ;
+  border: navajowhite;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 200;
+}
+button{
+  color: rgb(231, 214, 214);
+  background-color: rgb(159, 34, 221);
+  border: rgb(240, 219, 188);
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 7px 12px;
+  text-align: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media(max-width:1075px){
+  .form{
+    height: 1000px;
+  }
+  .header h1{
+    font-size: 24px;
+  }
+  .header p{
+    font-size: 14px;
+  }
+  .form{
+    width: 400px;
+  }
+  .name h4{
+    font-size: 12px;
+  }
+  .dob h4{
+    font-size: 12px;
+  }
+  .fathername h4{
+    font-size: 12px;
+  }
+  .mothername h4{
+    font-size: 12px;
+  }
+  .gender h4{
+    font-size: 12px;
+  }
+  .bloodgroup h4{
+    font-size: 12px;
+  }
+  .email h4{
+    font-size: 12px;
+  }
+  .phonenumber h4{
+    font-size: 12px;
+  }
+  .alternativephonenumber h4{
+    font-size: 12px;
+  }
+  .address h4{
+    font-size: 12px;
+  }
+  .city h4{
+    font-size: 12px;
+  }
+  .state h4{
+    font-size: 12px;
+  }
+  .pincode h4{
+    font-size: 12px;
+  }
+  input[type="text"]{
+    padding: 3px;
+    font-size: 12px;
+  }
+  input[type="date"]{
+    padding: 3px;
+    font-size: 12px;
+  }
+  input[type="email"]{
+    padding: 3px;
+    font-size: 12px;
+  }
+  .required{
+    font-size: 15px;
+  }
+}
+
+@media(max-width:417px){
+  .form{
+    width: 300px;
+  }
+  .header h1{
+    font-size: 20px;
+  }
+  .header p{
+    font-size: 12px;
+  }
+}
+@media(max-width:325px){
+  .form{
+    width: 250px;
+  }
+  .header h1{
+    font-size: 14px;
+  }
+  .header p{
+    font-size: 10px;
+  }
+}
